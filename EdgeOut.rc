@@ -1,0 +1,115 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FILTER_TUTORIAL DIALOG DISCARDABLE  0, 0, 150, 140
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Filter: EdgeOut"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Positive blur",IDC_STATIC,10,10,39,8
+    LTEXT           "X",IDC_STATIC,65,10,8,8
+    EDITTEXT        IDC_GXP,75,8,26,14,ES_NUMBER
+    LTEXT           "Y",IDC_STATIC,105,10,8,8
+    EDITTEXT        IDC_GYP,115,8,26,14,ES_NUMBER
+    LTEXT           "Negative blur",IDC_STATIC,10,30,43,8
+    LTEXT           "X",IDC_STATIC,65,30,8,8
+    EDITTEXT        IDC_GXM,75,28,26,14,ES_NUMBER
+    LTEXT           "Y",IDC_STATIC,105,30,8,8
+    EDITTEXT        IDC_GYM,115,30,26,14,ES_NUMBER
+    LTEXT           "Dark strength",IDC_STATIC,10,50,44,8
+    EDITTEXT        IDC_DARK,75,48,26,14,ES_NUMBER
+    LTEXT           "Light strength",IDC_STATIC,10,70,44,8
+    EDITTEXT        IDC_LIGHT,75,68,26,14,ES_NUMBER
+    CONTROL         "Interlace",IDC_INTER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,90,43,10
+    CONTROL         "Show edges",IDC_EDGES,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,75,90,55,10
+    DEFPUSHBUTTON   "OK",IDOK,21,110,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,78,110,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FILTER_TUTORIAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 143
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 132
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
